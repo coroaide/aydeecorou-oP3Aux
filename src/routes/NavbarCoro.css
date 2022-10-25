@@ -1,0 +1,43 @@
+:root {
+    --transition: all 0.7s ;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+.links {
+    transition: var(--transition);
+    cursor: pointer;
+}
+.links:hover {
+    transform: translateY(-5px);
+    border-bottom: 0.5rem solid;
+    border-image: -webkit-linear-gradient(45deg, purple, orange) 1;
+}
+.active {
+    border-bottom: 00.5rem solid;
+    border-image: -webkit-linear-gradient(45deg, purple, orange) 1;
+    border-image-slice: 1;
+}
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.bombilla {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.imagen{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100% ;
+
+}

@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Helvetica', Roboto, sans-serif;
+  }
+  .App{
+    width: 99vw;
+    height: 90vh;
+  }
